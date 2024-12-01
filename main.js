@@ -26,6 +26,9 @@ const verses = [
     "Merry Christmas!!!"
 ];
 
+const today = new Date();
+const currentDay = today.getDate();
+
 let verseBox = document.getElementById('verse-box');
 let verseText = document.getElementById('verse-text');
 let closeBtn = document.getElementById('close-verse');
@@ -33,10 +36,13 @@ let closeBtn = document.getElementById('close-verse');
 const boxes = document.querySelectorAll('.box');
 boxes.forEach(box => {
     box.addEventListener('click', function() {
-        const day = this.getAttribute('data-day');
-        const verse = verses[day - 1];
-        verseText.textContent = verse;
-        verseBox.style.display = 'block';
+        const day = parseInt(this.getAttribute('data-day'));
+        
+        if (day <= currentDay) {
+            const verse = verses[day - 1];
+            verseText.textContent = verse;
+            verseBox.style.display = 'block';
+        }
     });
 });
 
