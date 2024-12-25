@@ -23,8 +23,7 @@ const verses = [
     "Whoever pursues righteousness and kindness\nwill find life and honor.\nOne wise person went up against a city of warriors\nand brought down the stronghold in which they trusted.\n– Proverbs 21:20-22",
     "But whoever is joined with all the living has hope, for a living dog is better than a dead lion. The living know that they will die, but the dead know nothing; they have no more reward, and even the memory of them is lost. Their love and their hate and their envy have already perished; never again will they have any share in all that happens under the sun.\n– Ecclesiastes 9:4-6",
     "When I was a child, I spoke and thought and reasoned as a child. But when I grew up, I put away childish things. Now we see things imperfectly, like puzzling reflections in a mirror, but then we will see everything with perfect clarity. All that I know now is partial and incomplete, but then I will know everything completely, just as God now knows me completely.\n\nThree things will last forever—faith, hope, and love—and the greatest of these is love.\n\n– 1 Corinthians 13:11-13",
-    "Merry Christmas!!! https://isidore.co/CalibreLibrary/Feser,%20Edward/Immortal%20Souls_%20A%20Treatise%20on%20Human%20Nature%20(9917)/Immortal%20Souls_%20A%20Treatise%20on%20Human%20Nature%20-%20Feser,%20Edward.pdf",
-    "\u{1F928}"
+    "Merry Christmas!!!\nhttps://isidore.co/CalibreLibrary/Feser,%20Edward/Immortal%20Souls_%20A%20Treatise%20on%20Human%20Nature%20(9917)/Immortal%20Souls_%20A%20Treatise%20on%20Human%20Nature%20-%20Feser,%20Edward.pdf"
 ];
 
 const today = new Date();
